@@ -1,0 +1,8 @@
+@import "colors";
+@import "ConnectWise_Widget.scss";
+
+body {
+  margin: $default-margin;
+  background-color: $background-color;
+  color: $foreground-color;
+}

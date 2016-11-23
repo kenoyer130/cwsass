@@ -1,0 +1,22 @@
+{
+  "name": "cwsass",
+  "version": "1.0.0",
+  "description": "sass project for ConnectWise style sheet",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^3.13.0"
+  },
+  "scripts": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/ConnectWise.scss public/css/ConnectWise.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "css"
+  ],
+  "author": "jkenoyer@connectwise.com",
+  "license": "ISC"
+}
