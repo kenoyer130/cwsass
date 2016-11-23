@@ -19,7 +19,7 @@ Look in the scss folder. This is the precompiled raw files that are edited.
 
 ### source files
 *colors.scss*
-``
+```
 $foreground-color: #333333;
 $background-color: #ffffff;
 $default-margin: 5;
