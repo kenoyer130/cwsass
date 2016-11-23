@@ -13,7 +13,6 @@ Sass is an extended version of CSS that allows us to use advanced features while
 * variables
 * multiple files that are merged into one
 * [http://sass-lang.com/guide]
-* 
 
 ## Example explained
 Look in the scss folder. This is the precompiled raw files that are edited.
@@ -24,10 +23,10 @@ Look in the scss folder. This is the precompiled raw files that are edited.
 $foreground-color: #333333;
 $background-color: #ffffff;
 $default-margin: 5;
-``
+```
 
 *ConnectWise.scss*
-``
+```
 @import "colors";
 @import "ConnectWise_Widget.scss";
 
@@ -36,17 +35,17 @@ body {
   background-color: $background-color;
   color: $foreground-color;    
 }
-``
+```
 
 *ConnectWise_Widgets*
-``
+```
 .widget {
   background-color: $background-color;
 }
-``
+```
 
 ### Css Output
-``
+```
 .widget {
   background-color: #ffffff; } 
 
